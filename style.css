@@ -1,0 +1,35 @@
+body {
+    background: #355C7D;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1,
+h4,
+h5,
+h6 {
+    color: white;
+}
+
+.months {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.days {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #333;
+    font-size: 12px;
+}
